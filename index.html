@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pinus Health - Women's Reproductive & Fertility Services</title>
+    <link rel="stylesheet" href="template/style.css">
+    
+    <!-- Script to detect environment and set base URL -->
+    <script>
+        // Detect current environment and set base URL
+        const baseUrl = (window.location.hostname === 'localhost' || 
+                        window.location.hostname === '127.0.0.1') 
+                        ? '' : 'https://pinushealth.com';
+        
+        // Set baseUrl as global variable
+        window.siteBaseUrl = baseUrl;
+    </script>
+</head>
+
+<body>
+    <!-- Navigation bar -->
+    <header>
+        <div class="container">
+            <nav>
+                <script>
+                    document.write(`<a href="${window.siteBaseUrl}/" class="logo">
+                        <div class="logo-icon"></div>
+                        Pinus Health
+                    </a>`);
+                </script>
+                <ul class="nav-links">
+                    <script>
+                        document.write(`<li><a href="${window.siteBaseUrl}/#services">Services</a></li>`);
+                        document.write(`<li><a href="${window.siteBaseUrl}/#about">About Us</a></li>`);
+                        document.write(`<li><a href="${window.siteBaseUrl}/#team">Our Team</a></li>`);
+                        document.write(`<li><a href="${window.siteBaseUrl}/#contact">Contact</a></li>`);
+                    </script>
+                </ul>
+                <script>
+                    document.write(`<a href="${window.siteBaseUrl}/appointment" class="btn">Book Consultation</a>`);
+                </script>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Empowering Women's Reproductive Health & Fertility Choices</h1>
+                    <p>Pinus Health is dedicated to providing comprehensive fertility care and reproductive health services. Our team of specialists creates personalized care plans that respect your unique journey and reproductive goals.</p>
+                    <a href="#services" class="btn">Explore Our Services</a>
+                </div>
+                <div class="hero-image">
+                    <img src="images/fertility-services.jpg" alt="Women's Reproductive Health Services">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Fertility & Reproductive Services</h2>
+                <p>Pinus Health offers comprehensive fertility and reproductive health services to support your family-building journey</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">&#x1F9EC;</div>
+                    <h3>Egg Freezing</h3>
+                    <p>Preserve your fertility options for the future with our state-of-the-art egg freezing services, including comprehensive pre-treatment assessment and personalized care.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">&#x1F476;</div>
+                    <h3>In Vitro Fertilization (IVF)</h3>
+                    <p>Our comprehensive IVF program includes individualized treatment protocols, advanced embryo culture, and ongoing support throughout your fertility journey.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">&#x1F50E;</div>
+                    <h3>Fertility Assessment</h3>
+                    <p>Comprehensive fertility testing to identify potential barriers to conception and develop personalized treatment plans tailored to your specific needs.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">&#x1F4C8;</div>
+                    <h3>Ovulation Induction</h3>
+                    <p>Specialized treatments to enhance ovulation using medications that stimulate egg development and release, optimizing your chances of conception.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">&#x1F9EA;</div>
+                    <h3>Intrauterine Insemination (IUI)</h3>
+                    <p>A minimally invasive procedure that places sperm directly into the uterus, increasing the chances of fertilization for couples with certain fertility challenges.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">&#x1F4F1;</div>
+                    <h3>Virtual Consultations</h3>
+                    <p>Convenient telehealth options for initial consultations, follow-ups, and ongoing support throughout your fertility treatment journey.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About us -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="images/about-pinus.jpg" alt="About Pinus Health">
+                </div>
+                <div class="about-text">
+                    <h2>About Pinus Health</h2>
+                    <p>Pinus Health is a modern fertility and reproductive health center committed to empowering women with personalized care and advanced reproductive technologies. Founded in 2020, we combine clinical excellence with compassionate support to help you achieve your family-building goals.</p>
+                    <p>Our approach is centered on understanding each patient's unique fertility journey. We believe in providing comprehensive education about reproductive health options, so you can make informed decisions about your care.</p>
+                    <p>With state-of-the-art facilities and a team of reproductive endocrinologists, embryologists, and fertility specialists, Pinus Health is dedicated to delivering exceptional outcomes while providing supportive care every step of the way.</p>
+                    <a href="#team" class="btn">Meet Our Specialists</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Expert team -->
+    <section class="team" id="team">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Fertility Specialists</h2>
+                <p>Our team of reproductive endocrinologists and fertility specialists are leaders in their field, committed to providing exceptional, personalized care</p>
+            </div>
+            <div class="team-grid">
+                <div class="team-member">
+                    <img src="images/doctor-zhang.jpg" alt="Dr. Zhang">
+                    <div class="team-member-info">
+                        <h3>Dr. Zhang</h3>
+                        <p>Reproductive Endocrinologist, Medical Director</p>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <img src="images/doctor-li.jpg" alt="Dr. Li">
+                    <div class="team-member-info">
+                        <h3>Dr. Li</h3>
+                        <p>Fertility Specialist & IVF Coordinator</p>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <img src="images/doctor-wang.jpg" alt="Dr. Wang">
+                    <div class="team-member-info">
+                        <h3>Dr. Wang</h3>
+                        <p>Reproductive Immunologist</p>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <img src="images/nurse-liu.jpg" alt="Nurse Liu">
+                    <div class="team-member-info">
+                        <h3>Nurse Liu</h3>
+                        <p>Fertility Nurse Coordinator</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact us -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Schedule Your Consultation</h2>
+                <p>Take the first step in your fertility journey by scheduling a personalized consultation with our specialists</p>
+            </div>
+            <div class="contact-form">
+                <form>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" placeholder="Please enter your name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="Please enter your email">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone</label>
+                        <input type="tel" id="phone" placeholder="Please enter your phone number">
+                    </div>
+                    <div class="form-group">
+                        <label for="service">Service of Interest</label>
+                        <select id="service">
+                            <option value="">Select a service</option>
+                            <option value="egg-freezing">Egg Freezing</option>
+                            <option value="ivf">In Vitro Fertilization (IVF)</option>
+                            <option value="fertility-assessment">Fertility Assessment</option>
+                            <option value="iui">Intrauterine Insemination (IUI)</option>
+                            <option value="other">Other Services</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Additional Information</label>
+                        <textarea id="message" placeholder="Please share any specific questions or concerns"></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Request Consultation</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Pinus Health</h3>
+                    <p>Empowering women through advanced reproductive care and fertility solutions</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#team">Our Team</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Our Services</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Egg Freezing</a></li>
+                        <li><a href="#">IVF Treatment</a></li>
+                        <li><a href="#">Fertility Assessment</a></li>
+                        <li><a href="#">Intrauterine Insemination</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact Information</h3>
+                    <ul class="footer-links">
+                        <li>Address: 100 Health Road, Chaoyang District, Beijing</li>
+                        <li>Phone: 010-12345678</li>
+                        <li>Email: fertility@pinushealth.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                &copy; 2025 Pinus Health. All rights reserved.
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
